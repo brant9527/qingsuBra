@@ -1,0 +1,26 @@
+$theme:#cb0201;
+$theme_font_pink:#ffddd2;
+$theme_font_red:#cb0201;
+$theme_font_normal:#fff;
+$theme_bg_foot_nav:#1d1d1d;
+$theme_font:$theme_font_red;
+body {
+  font-size: 14px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+.qs-wapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.qs-content{
+    width: 960px;
+    padding: 20px;
+}
