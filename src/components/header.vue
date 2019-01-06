@@ -2,7 +2,7 @@
 <div class="head-wrapper">
     <div class="head qs-wapper">
         <div class="logo">
-            <img src="../assets/logo.jpg" alt="">
+            <img src="../assets/logo.png" alt="">
         </div>
         <div class="qs-router">
             <div class="item" v-for="item in routerList" :key="item.key" @click="linkPath(item)">
@@ -56,6 +56,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .head {
   display: flex;
@@ -63,9 +64,9 @@ export default {
   height: 100px;
 
   .logo {
-    width: 220px;
+    width: 80px;
     img {
-      width: 220px;
+      width: 80px;
     }
   }
   .qs-router {
