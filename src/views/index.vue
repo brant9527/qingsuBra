@@ -28,6 +28,13 @@ export default {
     return {
       title: ''
     }
+  },
+  watch: {
+    $route: {
+      handler: function (val) {
+        this.title = val.matched[1].meta.title
+      }
+    }
   }
 }
 </script>

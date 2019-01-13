@@ -2,10 +2,10 @@
     <div class="foot_nav footbg">
         <div class="wrapper flex-between">
             <div class="left">
-               <ul><li v-for="item in list" :key="item.key">{{item.name}}</li></ul>
+               <ul><li v-for="item in list" :key="item.key" @click="linkTo(item)">{{item.name}}</li></ul>
             </div>
             <div class="tip_beian">
-                <span>© 2014 GUJIN   沪ICP备17052029号-1  沪公网安备 31010102002554号</span>
+                <!-- <span>© 2014 GUJIN   沪ICP备17052029号-1  沪公网安备 31010102002554号</span> -->
             </div>
         </div>
     </div>
@@ -25,13 +25,20 @@ export default {
         },
         {
           name: 'career',
-          path: '/about'
+          path: '/career'
         },
         {
           name: 'E-Commerce',
-          path: '/about'
+          path: ''
         }
       ]
+    }
+  },
+  methods: {
+    linkTo (item) {
+      if (item.path) {
+        this.$router.push({path: item.path})
+      }
     }
   }
 }

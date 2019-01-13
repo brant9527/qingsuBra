@@ -1,5 +1,6 @@
 <template>
     <div>
+         <div class="title-h3">企业概况</div>
         <h1 class="word-title">公司介绍:</h1>
         <p class="word-wrapper">深圳拾暮电子商务有限公司，创立“倾愫”、“密匣”等高档内衣品牌，
             实行新电商（会员制社交新电商）+新零售（线下体验线上销售）的商业模式，与广大合作者互利共赢。</p>

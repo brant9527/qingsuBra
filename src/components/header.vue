@@ -35,7 +35,7 @@ export default {
         },
         {
           name: '古今电商',
-          path: '/commerce',
+          path: '/',
           label: 'E-Commerce'
         }
       ]
@@ -56,7 +56,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 11;
 }
 .head {
   display: flex;

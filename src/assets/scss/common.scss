@@ -3,7 +3,9 @@ $theme_font_pink:#ffddd2;
 $theme_font_red:#cb0201;
 $theme_font_normal:#fff;
 $theme_bg_foot_nav:#1d1d1d;
+$theme_font_grey:#E6E6FA;
 $theme_font:$theme_font_red;
+
 body {
   font-size: 14px;
 }
@@ -33,4 +35,12 @@ body {
     font-size: 24px;
     font-weight: bolder;
     line-height: 75px;
+}
+.title-h3{
+    border: 1px #cbcbcb solid;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
