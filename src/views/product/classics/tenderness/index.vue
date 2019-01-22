@@ -17,7 +17,7 @@
 </template>
 <style lang="scss" scoped>
 img {
-    width: 100%;
+        max-width: 100%;
   padding: 20px 0;
 }
 </style>

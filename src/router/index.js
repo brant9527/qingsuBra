@@ -19,6 +19,7 @@ let healthCare = resolve => require(['@/views/product/healthCare'], resolve)
 let protect = resolve => require(['@/views/product/healthCare/protect'], resolve)
 let career = resolve => require(['@/views/career'], resolve)
 let contact = resolve => require(['@/views/career/contact/index.vue'], resolve)
+let join = resolve => require(['@/views/career/join/index.vue'], resolve)
 Vue.use(Router)
 
 export default new Router({
@@ -142,6 +143,13 @@ export default new Router({
         component: contact,
         meta: {
           title: 'contact'
+        }
+      }, {
+        path: '/career/join',
+        name: 'join',
+        component: join,
+        meta: {
+          title: 'join us'
         }
       }]
     }, {

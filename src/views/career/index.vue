@@ -18,6 +18,10 @@ export default {
         {
           name: '联系我们',
           path: '/career/contact'
+        },
+        {
+          name: '加入我们',
+          path: '/career/join'
         }
       ],
       preIndex: 0

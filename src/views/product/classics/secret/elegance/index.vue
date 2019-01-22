@@ -10,13 +10,11 @@
         <img src="@/assets/imgs/product/secret/elegance/y7.jpg" alt="">
         <img src="@/assets/imgs/product/secret/elegance/y8.jpg" alt="">
         <img src="@/assets/imgs/product/secret/elegance/y9.jpg" alt="">
-        <img src="@/assets/imgs/product/secret/elegance/y10.jpg" alt="">
-        <img src="@/assets/imgs/product/secret/elegance/y11.jpg" alt="">
     </div>
 </template>
 <style lang="scss" scoped>
 img {
-    width: 100%;
+    max-width: 100%;
   padding: 20px 0;
 }
 </style>

@@ -13,13 +13,11 @@
         <img src="@/assets/imgs/product/secret/light/l10.jpg" alt="">
         <img src="@/assets/imgs/product/secret/light/l11.jpg" alt="">
         <img src="@/assets/imgs/product/secret/light/l12.jpg" alt="">
-        <img src="@/assets/imgs/product/secret/light/l13.jpg" alt="">
-        <img src="@/assets/imgs/product/secret/light/l14.jpg" alt="">
     </div>
 </template>
 <style lang="scss" scoped>
 img {
-    width: 100%;
+        max-width: 100%;
   padding: 20px 0;
 }
 </style>

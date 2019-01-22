@@ -19,7 +19,7 @@ export default {
     return {
       routerList: [
         {
-          name: '穿越古今',
+          name: '穿古越今',
           path: '/about',
           label: 'ABOUT'
         },
@@ -34,7 +34,7 @@ export default {
           label: 'CAREER'
         },
         {
-          name: '古今电商',
+          name: '倾愫电商',
           path: '/',
           label: 'E-Commerce'
         }
